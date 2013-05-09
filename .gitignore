@@ -18,3 +18,17 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+# PhoneGap Build
+.settings/
+AndroidManifest.xml
+ant.properties
+assets/www/cordova-2.7.0.js
+build.xml
+cordova/
+libs/
+lint.xml
+proguard-project.txt
+project.properties
+res/
+src/
