@@ -29,7 +29,8 @@ var deviceInfo = function() {
 
 var getLocation = function() {
     var suc = function(p) {
-        alert(p.coords.latitude + " " + p.coords.longitude);
+        //alert(p.coords.latitude + " " + p.coords.longitude);
+    	navigator.notification.alert(p.coords.latitude + " " + p.coords.longitude, null, "Min lokasjon", "OK");
     };
     var locFail = function() {
     };
